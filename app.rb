@@ -19,3 +19,11 @@ class App < Sinatra::Base
   end
   
 end
+
+
+
+{"session_id"=>"468b07f2c789131dbe304c07d0479a5478dbec32088efb21b9d245ee391f891c", 
+"csrf"=>"chr/+3+1efA6wW7KDabsLjuMT9vcIVehiu5nGSMzQ5M=", 
+"tracking"=>{
+  "HTTP_USER_AGENT"=>"da39a3ee5e6b4b0d3255bfef95601890afd80709"}
+}
