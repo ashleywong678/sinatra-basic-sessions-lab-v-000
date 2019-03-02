@@ -13,7 +13,7 @@ class App < Sinatra::Base
   end
   
   post '/checkout' do
-    @cart= params[:item][0].last.to_s
+    @cart= params[:item]
     # binding.pry
     session[:item]= @cart
     @session= session
