@@ -16,7 +16,7 @@ class App < Sinatra::Base
     # binding.pry
     @cart= params
     @session= session
-    @session[:item]=params['item'].first.last
+    @session[:item]=params[:item][0].last
   end
   
 end
