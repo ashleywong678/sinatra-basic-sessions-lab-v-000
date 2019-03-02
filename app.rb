@@ -22,7 +22,10 @@ class App < Sinatra::Base
   
 end
 
-
+# get '/hey' do 
+#   session["name"] = "Victoria"
+#   @session = session
+# end
 
 # {"session_id"=>"468b07f2c789131dbe304c07d0479a5478dbec32088efb21b9d245ee391f891c", 
 # "csrf"=>"chr/+3+1efA6wW7KDabsLjuMT9vcIVehiu5nGSMzQ5M=", 
