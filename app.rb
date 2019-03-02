@@ -17,7 +17,7 @@ class App < Sinatra::Base
     # binding.pry
     session[:item]= @cart
     @session= session
-    @session[:item]
+    # @session[:item]
   end
   
 end
